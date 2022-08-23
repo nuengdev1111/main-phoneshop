@@ -1,0 +1,60 @@
+.hero__content {
+    padding-top: 70px;      
+}
+
+.hero__title {
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.hero__title span {
+    color: #1139eb;
+}
+
+.hero__content p {
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+
+.hero__btns button {
+    border: 19;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    width: 250px;
+}
+
+.order__btn {
+    background: #2134df;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.order__btn:hover {
+    background: #020436;
+}
+.all__phones-btn {
+    background: transparent;
+    border: 2px solid #080606 !important;
+}
+
+.all__phones-btn a {
+    color: #1706b1;
+}
+
+.hero__service p {
+    color: #212245;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.shipping__icon i {
+    padding: 5px;
+    background: #051ce6;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+}

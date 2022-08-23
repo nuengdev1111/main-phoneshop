@@ -1,0 +1,30 @@
+.category__item {
+    background: #5c7dd6;
+    padding: 10px 80px;
+    border-radius: 90px;
+    cursor: pointer;
+    transition: 0.4s;
+    width: 35rem;
+}
+
+.category__img img {
+ 
+}
+
+.category__item:hover {
+    transform: translateY(15px);
+}
+
+@media only screen and (max-width: 768px) {
+    .category__item {
+        padding: 20px 15px;
+    }
+    .category__img img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .category__item h6  {
+        font-size: 0.8rem;
+    }
+}
