@@ -201,7 +201,7 @@ const Home = () => {
                                     } `}
                                     onClick={() => setCategory("SAMSUNG")}
                                 >
-                                    <img src={phoneCategoryImg02} alt="" />
+                                    <img src={phoneCategoryImg03} alt="" />
                                     Samsung
                                 </button>
 
@@ -211,7 +211,7 @@ const Home = () => {
                                     } `}
                                     onClick={() => setCategory("HUAWEI")}
                                 >
-                                    <img src={phoneCategoryImg03} alt="" />
+                                    <img src={phoneCategoryImg02} alt="" />
                                     Huawei
                                 </button>
                             </div>
@@ -246,28 +246,28 @@ const Home = () => {
 
                                 <ListGroup className="mt-4">
                                     <ListGroupItem className="border-0 ps-5">
-                                        <p className=" choose__us-title d-flex align-items-center gap-2 ">
+                            
                                             <i class="ri-smartphone-line"></i> Bring your
                                                 own device
-                                        </p>
+                                    
                                         <p className="choose__us-desc">
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, voluptatibus.
                                         </p>
                                     </ListGroupItem>
 
                                     <ListGroupItem className="border-0 ps-5">
-                                        <p className=" choose__us-title d-flex align-items-center gap-2 ">
+                            
                                             <i class="ri-customer-service-2-fill"></i> Get help online
-                                        </p>
+                                    
                                         <p className="choose__us-desc">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum.
                                         </p>
                                     </ListGroupItem>
 
                                     <ListGroupItem className="border-0 ps-5">
-                                        <p className=" choose__us-title d-flex align-items-center gap-2 ">
+                            
                                             <i class="ri-map-pin-line"></i> Visit a store{" "}
-                                        </p>
+                                    
                                         <p className="choose__us-desc">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, earum.
                                         </p>

@@ -112,37 +112,37 @@ const PhoneDetails = () => {
                                     className={` ${tab === "desc" ? "tab__active" : ""}`}
                                     onClick={() => setTab("desc")}
                                 >
-                                    Desc
+                                    Description
                                 </h6>
                                 <h6
                                     className={` ${tab === "rev" ? "tab__active" : ""}`}
                                     onClick={() => setTab("rev")}
                                 >
-                                    Re
+                                    Review
                                 </h6>
                             </div>
                                
                             {tab === "desc" ? (
                                 <div className="tab__content">
-                                    <p>{desc}</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.</p>
                                 </div>
                             ) : (
-                                <div className="">
+                                <div className="tab__form mb-3">
                                     <div className="review pt-5">
-                                        <p className="user__name mb-0">Jhon</p>
-                                        <p className="user__email">Jhon1@</p>
+                                        <p className="user__name mb-0">John</p>
+                                        <p className="user__email">Jhon1@gmail.com</p>
                                         <p className="feedback__text">great</p>
                                     </div>
                                 
-                                    <div className="">
-                                        <p className="user__name mb-0">Jhon</p>
-                                        <p className="user__email">Jhon1@</p>
+                                    <div className="review">
+                                        <p className="user__name mb-0">John</p>
+                                        <p className="user__email">Jhon1@gmail.com</p>
                                         <p className="feedback__text">great</p>
                                     </div>
 
                                     <div className="review">
-                                        <p className="user__name mb-0">Jhon</p>
-                                        <p className="user__email">Jhon1@</p>
+                                        <p className="user__name mb-0">John</p>
+                                        <p className="user__email">Jhon1@gmail.com</p>
                                         <p className="feedback__text">great</p>
                                     </div>
                                     <form className="form" onSubmit={submitHandler}>
@@ -155,7 +155,7 @@ const PhoneDetails = () => {
                                             />
                                         </div>
 
-                                        <div className="">
+                                        <div className="form__group">
                                             <input
                                                 type="text"
                                                 placeholder="Enter"
@@ -183,7 +183,7 @@ const PhoneDetails = () => {
                         </Col>
 
                         <Col lg="12" className="mb-5 mt-4">
-                            <h2 className="related__Product-title">Youm</h2>
+                            <h2 className="related__Product-title">Recommend</h2>
                         </Col>
 
                         {relatedProduct.map((item) => (

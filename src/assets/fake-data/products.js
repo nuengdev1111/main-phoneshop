@@ -2,6 +2,7 @@
 import product_01_image_01 from "../images/product_01.jpg";
 import product_01_image_02 from "../images/product_01.1.jpg";
 import product_01_image_03 from "../images/product_01.3.jpg";
+import product_01_image_04 from "../images/product_077.png";
 
 import product_02_image_01 from "../images/product_2.1.jpg";
 import product_02_image_02 from "../images/product_2.2.jpg";
@@ -31,6 +32,7 @@ const products = [
         image01: product_01_image_01,
         image02: product_01_image_02,
         image03: product_01_image_03,
+        image04: product_01_image_04,
         category: "Iphone",
 
         desc: "Lorem",
@@ -43,6 +45,7 @@ const products = [
         image01: product_02_image_01,
         image02: product_02_image_02,
         image03: product_02_image_03,
+        image04: product_01_image_04,
         category: "iphone",
 
         desc: "Lorem",
@@ -55,6 +58,7 @@ const products = [
         image01: product_03_image_01,
         image02: product_03_image_02,
         image03: product_03_image_03,
+        image04: product_01_image_04,
         category: "Samsung",
 
         desc: "Lorem",
@@ -67,6 +71,7 @@ const products = [
         image01: product_04_image_01,
         image02: product_04_image_02,
         image03: product_04_image_03,
+        image04: product_01_image_04,
         category: "Samsung",
 
         desc: "Lorem",
@@ -79,6 +84,7 @@ const products = [
         image01: product_05_image_01,
         image02: product_05_image_02,
         image03: product_05_image_03,
+        image04: product_01_image_04,
         category: "iphone",
 
         desc: "Lorem",
@@ -90,6 +96,8 @@ const products = [
         image01: product_01_image_01,
         image02: product_01_image_02,
         image03: product_01_image_03,
+        image04: product_01_image_04,
+        image05: product_01_image_04,
         category: "Iphone",
 
         desc: "Lorem",
@@ -102,6 +110,7 @@ const products = [
         image01: product_02_image_02,
         image02: product_02_image_01,
         image03: product_02_image_03,
+        image04: product_01_image_04,
         category: "Samsung",
 
         desc: "Lorem",
@@ -114,6 +123,7 @@ const products = [
         image01: product_03_image_02,
         image02: product_03_image_01,
         image03: product_03_image_03,
+        image04: product_01_image_04,
         category: "Samsung",
 
         desc: "Lorem",
@@ -126,6 +136,7 @@ const products = [
         image01: product_04_image_02,
         image02: product_04_image_01,
         image03: product_04_image_03,
+        image04: product_01_image_04,
         category: "Samsung",
 
         desc: "Lorem",
@@ -138,6 +149,7 @@ const products = [
         image01: product_05_image_02,
         image02: product_05_image_01,
         image03: product_05_image_03,
+        image04: product_01_image_04,
         category: "Iphone",
 
         desc: "Lorem",
@@ -150,6 +162,7 @@ const products = [
         image01: product_06_image_01,
         image02: product_06_image_02,
         image03: product_06_image_03,
+        image04: product_01_image_04,
         category: "Huawei",
 
         desc: "Lorem",
@@ -162,6 +175,7 @@ const products = [
         image01: product_06_image_02,
         image02: product_06_image_01,
         image03: product_06_image_03,
+        image04: product_01_image_04,
         category: "Huawei",
 
         desc: "Lorem",
@@ -174,6 +188,7 @@ const products = [
         image01: product_06_image_03,
         image02: product_06_image_02,
         image03: product_06_image_03,
+        image04: product_01_image_04,
         category: "Huawei",
 
         desc: "Lorem",

@@ -23,7 +23,7 @@
 
 .category span {
     padding: 5px 10px;
-    background: #fde4e4;
+    background: #9fa7ce;
     color: #212245;
     border-radius: 5px;
 }
@@ -46,13 +46,13 @@
 }
 
 .tab__active {
-    color: #df2020;
+    color: #6765e4;
 }
 
 .form {
     width: 60%;
     margin: auto;
-    background: #7c8cc7;
+    background: #9faad1;
     padding: 20px;
     border-radius: 5px;
 }
@@ -63,11 +63,10 @@
 .form__group input,
 .form__group textarea {
     width: 100%;
-    background: #faf6f6;
+    background: transparent;
     padding: 7px 20px;
     border: none;
     border-bottom: 1px solid #2122454c;
-    color: #2e57dd;
 }
 
 .form__group input:focus,
@@ -77,7 +76,7 @@
 
 .user__name {
     font-weight: 600;
-    color: #f2f2f7;
+    color: #0e0eee;
 }
 
 .user__email {
