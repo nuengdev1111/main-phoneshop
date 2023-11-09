@@ -15,10 +15,7 @@ const Footer = () => {
                         <div className="  footer__logo text-start">
                             <img src={logo} alt="logo" />
                             <h5>Phone</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam culpa tempore maiores nesciunt aliquam nulla minima animi, soluta 
-                                ipsam eveniet, veniam perferendis delectus provident eum excepturi deleniti aspernatur, labore ipsa?
-                            </p>
+
                         </div>
                     </Col>
 
